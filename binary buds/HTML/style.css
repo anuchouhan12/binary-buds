@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-page,
+.phone-number-page,
+.account-page,
+.user-details-page,
+.demo-or-buy-page,
+.demo-teachers-page,
+.buy-course-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 83, 75, 0.7),rgba(4, 16, 62, 0.7)),url(bb/bgc.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items:center;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+.image{
+    height: 40vh;
+    width: 40vh;
+}
